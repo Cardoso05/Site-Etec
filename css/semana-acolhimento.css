@@ -1,0 +1,138 @@
+/* Classes Gerais */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.centralizar{
+    text-align: center;
+}
+/* Header */
+#logo{
+    margin-left: 35px;
+    padding-bottom: 0%;
+}
+.font-menu-links{
+    color: #ff7342;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-right: 28px;
+    padding-bottom: 0px;
+}
+/*Navbar*/
+.margin-contato{
+    margin-right: 35px;
+}
+.font-menu-links:hover{
+    color: #c35326;
+}
+.font-menu-links:active{
+    color: #c35326;
+}
+.sombra-nav{
+    box-shadow: 5px 15px 30px #dddddd;
+    z-index: 0;
+
+}
+/* Redes Sociais*/
+.rede-sociais{
+    padding-right: 1%;
+}
+.icone-redes-sociais{
+    z-index: 1;
+    width: auto;
+    height: auto;
+    display: inline;
+    float: right;
+    padding: 2px;
+    padding-top: 1%;   
+    position: relative;
+}
+.conteudo-pagina{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/* Icone */
+#icone{
+    padding-top: 5%;
+    
+}
+/* Videos */
+.video-responsive{
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    margin: 30px 0px;
+    border: 3px solid #ff7342;
+
+}
+.video-responsive iframe{
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+/* Titulo */
+.titulo-acolhimento{
+    color: #ff7342;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.titulo-1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #be3f00;
+    font-weight: bold;
+    margin-top: 4%;
+}
+.titulo-texto-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+.titulo-links{
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 8px solid #ff5400;
+    text-align: center;
+    padding-bottom: 1%;
+    font-weight: bold;
+
+}
+/* Texto */
+
+.texto-1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+
+}
+.texto-2{
+    margin-right: 0;
+
+}
+.subtitulo{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.links{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 8px solid #ff5400;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+.textos-links{
+    margin-top: 10%;
+}
+/* Centro Paula Souza */
+.centro-paula-souza{
+    text-align: center;
+    margin-top: 5%;
+    margin-left: -4%;
+}
+/* Rodape */
+.rodape{
+    width: 100%;
+    margin-top: 5%;
+}

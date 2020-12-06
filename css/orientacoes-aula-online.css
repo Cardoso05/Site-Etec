@@ -1,0 +1,337 @@
+/* Classes Gerais */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.centralizar{
+    text-align: center;
+}
+/* Header */
+#logo{
+    margin-left: 35px;
+    padding-bottom: 0%;
+}
+.font-menu-links{
+    color: #ff7342;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-right: 28px;
+    padding-bottom: 0px;
+}
+/*Navbar*/
+.margin-contato{
+    margin-right: 35px;
+}
+.font-menu-links:hover{
+    color: #c35326;
+}
+.font-menu-links:active{
+    color: #c35326;
+}
+.sombra-nav{
+    box-shadow: 5px 15px 30px #dddddd;
+    z-index: 0;
+
+}
+/* Redes Sociais*/
+.rede-sociais{
+    padding-right: 1%;
+}
+.icone-redes-sociais{
+    z-index: 1;
+    width: auto;
+    height: auto;
+    display: inline;
+    float: right;
+    padding: 2px;
+    padding-top: 1%;   
+    position: relative;
+}
+.conteudo-pagina{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/* Icone */
+#icone{
+    padding-top: 5%;
+    
+}
+/* Titulos */
+.titulo-1{
+    color: #ff7342;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 2%;
+}
+.titulo-2-passo-1{
+    float: left;
+    font-size: 1.0em;
+    padding-left: 1%;
+    padding-top: 0.6%;
+
+}
+.titulo-2-passo-2{
+    float: left;
+    font-size: 1.0em;
+    padding-left: 1%;
+    padding-top: 0.6%;
+
+}
+.titulo-2-passo-3{
+    float: left;
+    font-size: 1.0em;
+    padding-left: 1%;
+    padding-top: 0.6%;
+
+}
+.titulo-2-passo-4{
+    float: left;
+    font-size: 1.0em;
+    padding-left: 1%;
+    padding-top: 0.6%;
+
+}
+/* Titulo 2 passo 1 */
+@media only screen and (max-width: 959px){
+    .titulo-2-passo-1{
+    float: left;
+    font-size: 1.0em;
+    padding-left: 1%;
+    padding-top: 1.0%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 959){
+    .titulo-2-passo-1 {
+    float: left;
+    font-size: 0.9em;
+    padding-left: 1%;
+    padding-top: 0.4%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .titulo-2-passo-1{
+    float: left;
+    font-size: 1.0em;
+    padding-left: 1%;
+    padding-top: 0.5%;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    .titulo-2-passo-1{
+    float: left;
+    font-size: 0.8em;
+    padding-left: 1%;
+    padding-top: 1.9%;
+    }
+}
+
+@media only screen and (max-width: 479px){
+    .titulo-2-passo-1{
+        float: left;
+        font-size: 0.55em;
+        padding-left: 1%;
+        padding-top: 4.8%;
+        }
+    }
+
+
+    /* Titulo 2 passo 2 */
+
+@media only screen and (max-width: 959px){
+    .titulo-2-passo-2{
+        float: left;
+        font-size: 0.9em;
+        padding-left: 1%;
+        padding-top: 1.0%;
+        }
+    }
+@media only screen and (min-width: 768px) and (max-width: 959){
+    .titulo-2-passo-2 {
+    float: left;
+    font-size: 1.0em;
+    padding-left: 1%;
+    padding-top: 0.5%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .titulo-2-passo-2{
+    float: left;
+    font-size: 0.8em;
+    padding-left: 1%;
+    padding-top: 1.8%;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 600px){
+    .titulo-2-passo-2{
+    float: left;
+    font-size: 0.65em;
+    padding-left: 1%;
+    padding-top: 2.7%;
+    }
+}
+@media only screen and (max-width: 479px){
+    .titulo-2-passo-2{
+    float: left;
+    font-size: 0.45em;
+    padding-left: 1%;
+    padding-top: 4.8%;
+    }
+}
+/* Titulo 2 passo 3 */
+
+@media only screen and (max-width: 959px){
+    .titulo-2-passo-3{
+        float: left;
+        font-size: 0.9em;
+        padding-left: 1%;
+        padding-top: 1.0%;
+        }
+    }
+@media only screen and (min-width: 768px) and (max-width: 959){
+    .titulo-2-passo-3 {
+    float: left;
+    font-size: 1.0em;
+    padding-left: 1%;
+    padding-top: 0.5%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .titulo-2-passo-3{
+    float: left;
+    font-size: 0.8em;
+    padding-left: 1%;
+    padding-top: 1.8%;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 600px){
+    .titulo-2-passo-3{
+    float: left;
+    font-size: 0.65em;
+    padding-left: 1%;
+    padding-top: 3.5%;
+    }
+}
+@media only screen and (max-width: 479px){
+    .titulo-2-passo-3{
+    float: left;
+
+    font-size: 0.48em;
+    padding-left: 1%;
+    padding-top: 4.8%;
+    }
+}
+/* Titulo 2 passo 4 */
+
+@media only screen and (max-width: 959px){
+    .titulo-2-passo-4{
+        float: left;
+        font-size: 0.9em;
+        padding-left: 1%;
+        padding-top: 1.0%;
+        }
+    }
+@media only screen and (min-width: 768px) and (max-width: 959){
+    .titulo-2-passo-4{
+    float: left;
+    font-size: 2em;
+    padding-left: 1%;
+    padding-top: 0.5%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .titulo-2-passo-4{
+    float: left;
+    font-size: 0.80em;
+    padding-left: 1%;
+    padding-top: 1.8%;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 600px){
+    .titulo-2-passo-4{
+    float: left;
+    font-size: 0.65em;
+    padding-left: 1%;
+    padding-top: 2.7%;
+    }
+}
+@media only screen and (max-width: 479px){
+    .titulo-2-passo-4{
+    float: left;
+    font-size: 0.45em;
+    padding-left: 1%;
+    padding-top: 4.8%;
+    }
+}
+    
+
+/* Acordeão */
+.accordion{
+    margin-top: 5%;
+}
+.seta{
+    background-image: url("../img/img-orientacao/passo-a-passo/passo-1/seta.png");
+    height: 45px;
+    width: 40px;
+    background-repeat: no-repeat;
+    display: inline;
+    float: right;
+    position: relative;
+    margin: 0;
+}
+.numero{
+    float: left;
+    margin: 0;
+}
+.cabecalho-card{
+    border-radius: 30px !important;
+    background-color: #fb520f;
+    color: white;
+    border: 1px solid white;
+}
+.conteudo-card{
+    background-color: #ebebeb;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.borda{
+    border: none !important;
+}
+.texto-1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3%;
+}
+.img-card{
+    margin-left: 3%;
+}
+.img-card-2{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.img-card-3{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+/* Centro Paula Souza */
+.centro-paula-souza{
+    text-align: center;
+    margin-top: 10%;
+    margin-left: -4%;
+}
+/* Rodape */
+.rodape{
+    width: 100%;
+    margin-top: 5%;
+    height: auto;
+}
