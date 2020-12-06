@@ -31,16 +31,6 @@
 .font-menu-links:active{
     color: #c35326;
 }
-@media screen and (min-width: 1000px){
-        .dropdown:hover .dropdown-menu {
-        display: block;
-        position: absolute;
-        transform: translate3d(5px, 28px, 0px); /* distancia entre menu e btn */
-        top: 0px;
-        left: 0px;
-        }
-}
-
 /* Banner */
 #banner{
     width: 100%;
@@ -183,9 +173,29 @@
     margin-top: 5%;
     font-family: Arial, Helvetica, sans-serif;
 }
-.img-patrocinadores{
-    margin-top: 4%;
+.img-patrocinador{
+    margin-top: 5%;
+    text-align: center;
 }
+@media (max-width: 943px){
+    .patrocinador{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 2%;
+    }
+}
+@media (max-width: 767px){
+    .borda{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 2%;
+        border-bottom: 3px solid #e45116;
+        border-width: 80%;
+    }
+}
+
 .centro-paula-souza{
     text-align: center;
     margin-top: 5%;
