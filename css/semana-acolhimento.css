@@ -6,6 +6,9 @@
 .centralizar{
     text-align: center;
 }
+body{
+    overflow-x:hidden;
+    }
 /* Header */
 #logo{
     margin-left: 35px;
