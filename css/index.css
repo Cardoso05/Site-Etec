@@ -3,6 +3,9 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    overflow-x:hidden;
+    }
 .centralizar{
     text-align: center;
 }
@@ -165,9 +168,18 @@
 
 /* Noticia */
 
+@media (max-width: 510px){
 .noticia{
     min-height: 300px;
-    margin: 2%;
+    margin-bottom: 3%;
+}
+}
+
+@media (min-width: 510px){
+.noticia{
+    min-height: 300px;
+    margin: 2%   
+}
 }
 .titulo-noticia{
     color: #ff7342;
