@@ -118,7 +118,13 @@ body{
     color: #ff7342;
 
 }
-
+@media (min-width: 1200px){
+.font-saiba-mais{
+    text-decoration: underline;
+    color: #ff7342;
+    display: none;
+}
+}
 /* Titulo dos Videos*/
 .font-video-mapa{
     color: #ff5400;
