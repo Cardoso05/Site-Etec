@@ -1,0 +1,149 @@
+/* Classes Gerais */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.centralizar{
+    text-align: center;
+}
+body{
+    overflow-x:hidden;
+    }
+/* Header */
+#logo{
+    margin-left: 35px;
+    padding-bottom: 0%;
+}
+.font-menu-links{
+    color: #ff7342;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-right: 28px;
+    padding-bottom: 0px;
+}
+/*Navbar*/
+.margin-contato{
+    margin-right: 35px;
+}
+.font-menu-links:hover{
+    color: #c35326;
+}
+.font-menu-links:active{
+    color: #c35326;
+}
+.sombra-nav{
+    box-shadow: 5px 15px 30px #dddddd;
+    z-index: 0;
+
+}
+/* Redes Sociais*/
+.rede-sociais{
+    padding-right: 1%;
+}
+.icone-redes-sociais{
+    z-index: 1;
+    width: auto;
+    height: auto;
+    display: inline;
+    float: right;
+    padding: 2px;
+    padding-top: 1%;   
+    position: relative;
+}
+/* Logo */
+.img-comunicado{
+    margin-top: 6%;
+}
+/* Conteudo Pagina*/
+.titulo-1{
+    text-transform: uppercase;
+    color: #ff5400;
+    font-size: 24px;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo-cursos{
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo-2{
+    font-size: 16px;
+    color: #ff5400;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.botao {
+    padding-left: 0;
+
+}
+.underline{
+    text-decoration: none !important;
+    outline: none !important;
+}
+/* Botao dos Cursos*/
+.botao-cursos{
+    display:block;
+    width: 100%;
+    height: 100px;
+    background-color: #ff5400;
+    margin-bottom: 8px !important;
+    border-radius: 12px;
+    position:relative;
+    top:0;
+    padding:4px;
+    text-decoration: none !important;
+    border: none !important;
+}
+.botao-cursos:focus {
+    top:-4px;
+    box-shadow: 5px 6px 5px #999;
+    transition: ease-in-out;
+}
+.botao-cursos:visited {
+    top:-4px;
+    box-shadow: 5px 6px 5px #999;
+    transition: ease-in-out;
+}
+.botao-cursos:active {
+    top:-4px;
+    box-shadow: 5px 6px 5px #999;
+    transition:  .2s ease-in-out;
+}
+
+.botao-cursos:hover{
+    top:-4px;
+    box-shadow: 5px 6px 5px #999;
+    transition:  .2s ease-in-out;
+    
+}
+
+@media (min-width:768px) and (max-width:991px){
+.telas-maiores{
+    display:none
+}
+}
+@media (max-width:767px){
+    .telas-medias{
+        display: none;
+    }
+}
+@media (min-width:992px){
+    .telas-medias{
+        display:none;
+    }
+}
+
+/* Rodape */
+.centro-paula-souza{
+    text-align: center;
+    margin-top: 5%;
+}
+.rodape{
+    width: 100%;
+    margin-top: 5%;
+}
