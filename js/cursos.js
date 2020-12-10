@@ -1,3 +1,5 @@
-querySelector(){
-    document.querySelector
-}
+
+ 
+
+
+
