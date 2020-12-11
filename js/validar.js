@@ -1,7 +1,7 @@
 function validar(){
   var nome = form.nome.value;
   var texto = form.texto.value;
-  var email = form.email.value 
+  var email = form.email.value;
 
   if(nome == "" && texto == ""){
     alert('Preencha todos os campos.');
@@ -29,4 +29,30 @@ function validar(){
     return false;
   }
  
+}
+function validarCadastro(){
+  var login = form.login.value;
+  var senha = form.senha.value;
+  var confirmarsenha = form.confirmarsenha.value;
+
+  if(senha == "" && login == ""){
+    alert('Preencha todos os campos.')
+    return false;
+  }
+  if(senha == ""){
+    alert('Preencha a senha')
+    return false;
+  }
+  if(login == ""){
+    alert('Preencha o login')
+    return false;
+  }
+  if(confirmarsenha == ""){
+    alert('Confirme sua senha')
+    return false;
+  }
+  if(senha != confirmarsenha){
+    alert ('Preencha senhas iguais')
+    return false;
+  }
 }
