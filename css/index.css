@@ -5,6 +5,7 @@
 }
 body{
     overflow-x:hidden;
+    
     }
 .centralizar{
     text-align: center;
@@ -12,6 +13,9 @@ body{
 .seta{
     width: auto;
 
+}
+html{
+    scroll-behavior: smooth;
 }
 /* Header */
 #logo{

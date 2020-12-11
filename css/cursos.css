@@ -8,7 +8,11 @@
 }
 body{
     overflow-x:hidden;
+    
     }
+html{
+    scroll-behavior: smooth;
+}
 /* Header */
 #logo{
     margin-left: 2%;
