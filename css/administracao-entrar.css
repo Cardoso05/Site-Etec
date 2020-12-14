@@ -1,0 +1,180 @@
+html{
+    overflow: hidden;
+}
+
+
+
+#logo{
+    margin-left: 2%;
+    padding-bottom: 0%;
+}
+.font-menu-links{
+    color: #ff7342;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-right: 28px;
+    padding-bottom: 0px;
+}
+/*Navbar*/
+.margin-contato{
+    margin-right: 35px;
+}
+.font-menu-links:hover{
+    color: #c35326;
+}
+.font-menu-links:active{
+    color: #c35326;
+}
+.sombra-nav{
+    box-shadow: 5px 15px 30px #dddddd;
+    z-index: 0;
+
+}
+
+/* Formulario */
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+.margem-logo-formulario{
+    padding-top: 2.5%;
+}
+.logo-formulario{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+@media (min-width: 144px) { 
+    .formulario{
+        background-color: #dadada;
+        padding-bottom: 5%;
+        margin-top: 17%;
+        border-radius: 54px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+
+}
+@media (min-width: 576px) { 
+    .formulario{
+        background-color: #dadada;
+        padding-bottom: 5%;
+        margin-top: 13%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 54px;
+    } 
+
+}
+@media (min-width: 768px) {
+    .formulario{
+        background-color: #dadada;
+        padding-bottom: 5%;
+        margin-top: 10%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 54px;
+        width: 85%;
+    } 
+
+}
+@media (min-width: 992px) {
+    .formulario{
+        background-color: #dadada;
+        padding-bottom: 5%;
+        margin-top: 8%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 54px;
+        width: 80%;
+    } 
+}
+@media (min-width: 1200px) { 
+        .formulario{
+        background-color: #dadada;
+        padding-bottom: 5%;
+        margin-top: 7%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 54px;
+        width: 70%;
+    }
+}
+
+.nome-formulario{
+    padding-left: 10px;
+    width: 80%;
+    height: 50px;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 20px;
+    background-color: #f8f8f8;
+    border: none;
+    margin-bottom: 3%;
+}
+.email-formulario{
+    padding-left: 10px;
+    width: 80%;
+    height: 50px;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 20px;
+    background-color: #f8f8f8;
+    border: none;
+    margin-bottom: 3%;
+}
+
+.senha-formulario{
+    padding-left: 10px;
+    width: 80%;
+    height: 50px;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 20px;
+    background-color: #f8f8f8;
+    border: none;
+    margin-bottom: 3%;
+}
+
+#nome::placeholder{
+    text-align: left;
+}
+#senha::placeholder{
+    text-align: left;
+}
+
+.texto-1{
+    color: #ff6600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.8em;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+.botao{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    width: 80%;
+    height: 50px;
+    border-radius: 20px;
+    background-color:#ff6600;
+    color: white;
+    border: none;
+}
+
+/* Rodapé */
+.centro-paula-souza{
+    text-align: center;
+    margin-top: 5%;
+}
+.rodape{
+    width: 100%;
+    margin-top: 5%;
+}
