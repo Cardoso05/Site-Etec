@@ -5,6 +5,7 @@
 }
 body{
     overflow-x:hidden;
+    
     }
 .centralizar{
     text-align: center;
@@ -13,9 +14,12 @@ body{
     width: auto;
 
 }
+html{
+    scroll-behavior: smooth;
+}
 /* Header */
 #logo{
-    margin-left: 35px;
+    margin-left: 2%;
     padding-bottom: 0%;
 }
 .font-menu-links{
@@ -58,7 +62,8 @@ body{
     height: 200px;
     position: absolute;
     z-index: -1;
-    
+    overflow-x: hidden;
+
 }
 }
 /* Redes Sociais */
@@ -89,7 +94,7 @@ body{
         height: auto;
         margin-right: auto;
         margin-left: auto;
-        margin-top: 350px;
+        margin-top: 290px;
         text-align: center;
         margin-bottom: 3%;
     }

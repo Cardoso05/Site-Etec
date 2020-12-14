@@ -1,7 +1,7 @@
 function validar(){
   var nome = form.nome.value;
   var texto = form.texto.value;
-  var email = form.email.value 
+  var email = form.email.value;
 
   if(nome == "" && texto == ""){
     alert('Preencha todos os campos.');

@@ -8,10 +8,14 @@
 }
 body{
     overflow-x:hidden;
+    
     }
+html{
+    scroll-behavior: smooth;
+}
 /* Header */
 #logo{
-    margin-left: 35px;
+    margin-left: 2%;
     padding-bottom: 0%;
 }
 .font-menu-links{
@@ -137,6 +141,9 @@ body{
     text-decoration: none !important;
     outline: none !important;
 }
+.display-none{
+    display: none;
+}
 .botao-cursos{
     display:block;
     width: 100%;
@@ -174,8 +181,17 @@ body{
     
 }
 
-
-
+#subirTopo{
+    background-color: #ff5400;
+    display: inline;
+    text-transform: initial;
+    color: white;
+    padding: 5px;
+    border: 3px solid rgb(199, 199, 199);
+}
+.margin{
+    margin-bottom: 15px;
+}
 /* Rodape */
 .centro-paula-souza{
     text-align: center;
