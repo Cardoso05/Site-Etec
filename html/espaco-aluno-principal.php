@@ -1,4 +1,13 @@
+<?php
+session_start();
+    if((!isset ($_SESSION['login'])) and (!isset ($_SESSION['senha'])))
+    {
+    unset($_SESSION['login']);
+    unset($_SESSION['senha']);
+    header('Location:administracao-entrar.html');
+    }
 
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
@@ -46,7 +55,7 @@
                         <a class="nav-link font-menu-links" href="cursos.html#cursos-tecnicos">CURSOS TÉCNICOS</a>
                         </li>
                         <li class="nav-item ">
-                        <a class="nav-link font-menu-links" href="espacoaluno.html">ESPAÇO ALUNO</a>
+                        <a class="nav-link font-menu-links" href="espaco-aluno-principal.php">ESPAÇO ALUNO</a>
                         </li>
                         <li class="nav-item ">
                                 <a class="nav-link font-menu-links margin-contato" href="fale-conosco.html">FALE CONOSCO</a>
@@ -241,20 +250,23 @@
 
             </div>
 
+            <div>
+                <a href="espaco-aluno.php"><button class="botao-entrar-pequeno nav-link">Horario Aulas</button></a>
+            </div>
         </div>
-        
+       
         <!-- Rodapé -->
-        <footer>
+        <footer >
 
             <div class="rodape1 row">
 
 
 
-                <div class="img-cps col-3">
+                <div class="img-cps col-md-3">
                     <img src="../img/img-espaco-aluno/rodape/centro-paula-souza/centro-paula-souza.png" alt="Centro Paula Souza" class="cps">
                 </div>
 
-                <div class="endereco col-3">
+                <div class="endereco col-md-3">
                     <h6 class="titulo-endereco">Endereço</h6>
                     <p class="texto-endereco">São Paulo/SP</br>
                     Broonklin novo</br>
@@ -262,7 +274,7 @@
                 </p>
                 </div>
 
-                <div class="contato col-3">
+                <div class="contato col-md-3">
                     <h6 class="titulo-contrato">Contato</h6>
                     <p class="texto-contato">São Paulo/SP</br>
                     Broonklin novo</br>
@@ -270,7 +282,7 @@
                 </p>
                 </div>
 
-                <div class="col-3 redes-contato">
+                <div class="col-md-3 redes-contato">
                     <div class="redes-sociais-rodape">
                         <img src="../img/img-espaco-aluno/rodape/redes-sociais/google-icone.png" alt="">
                         <img src="../img/img-espaco-aluno/rodape/redes-sociais/youtube-icone.png" alt="">
@@ -278,17 +290,38 @@
                         <img src="../img/img-espaco-aluno/rodape/redes-sociais/instagran-icone.png" alt="">
                         <img src="../img/img-espaco-aluno/rodape/redes-sociais/facebook-icone.png" alt="">
                     </div>
-
+                    <div>
+                        <a href="fale-conosco.html"><button class="botao-entrar-pequeno nav-link">CONTATO</button></a>
+                    </div>
 
                 </div>
 
 
-
             </div>
+            <div class="rodape-menor">
 
+                <div class="rodape1-menor row">
+                    <div class="endereco-menor col-sm-6">
+                        <h6 class="titulo-endereco-menor">Endereço</h6>
+                        <p class="texto-endereco-menor">São Paulo/SP</br>
+                        Broonklin novo</br>
+                        Avenida Chucri Zaidan, 40</br>
+                    </p>
+                    </div>
+
+                    <div class="contato-menor col-sm-6">
+                        <h6 class="titulo-contrato-menor">Meios de contato</h6>
+                        <p class="texto-contato-menor">Email: contato@jrmetec.com.br</br>
+                       Telefone: 5103-2085</br>     
+                    </p>
+                    </div>
+                </div>
+            </div>
             <div class="etec-footer">
                 <h3 class="footer">© 2019 ETEC JORNALISTA ROBERTO MARINHO. ALL RIGHTS RESERVED</h3>
             </div>
+
+           
 
         </footer>
         <!-- Bootstrap -->

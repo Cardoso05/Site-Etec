@@ -17,7 +17,7 @@ if($result=mysqli_query($mysqli,$query)){
 
         $_SESSION['login'] = $login;
         $_SESSION['senha'] = $senha;
-        header('Location:../html/espaço_aluno.php');
+        header('Location:../html/espaco-aluno-principal.php');
     
     }else{
         unset ($_SESSION['login']);

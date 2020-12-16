@@ -213,3 +213,200 @@ textarea:focus, input:focus, select:focus {
   .validation .invalid {
     border: 1px solid #ef3c59;
   }
+  /* Rodapé */
+@media (max-width:900px){
+    .img-cps{
+        display: none;
+        
+    }
+    .cps{
+        width: 96px;
+        height: 95px;
+        margin-top: 2.2em;
+        margin-left: 18%;
+        display: none;
+    }
+    .endereco{
+        margin-top: 2.2em;
+        color: white;
+        display: none;
+    }
+    .contato{
+        margin-top: 2.2em;
+            color: white;
+            display: none;
+    }
+    .rodape{
+        
+        width: 100%;
+        position: relative;
+        bottom: 0;
+        display: none;
+    
+    }
+    .redes-sociais-rodape{
+        margin-bottom: 10px;
+        display: none;
+    }
+    
+    .redes-contato{
+        margin-top: 2.2em;
+        display: none;
+    }
+    .rodape1{
+        margin-top: 20%;
+        background-color: #892d00;
+        height: 12em;
+        display: none;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+        
+    }
+    .rodape1.row{
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+    .botao-entrar-pequeno{
+        display: none;
+        font-weight: BOLD;
+        width: 200px;
+        height: 50px;
+        border-radius: 20px;
+        background-color:#ff6600;
+        color: white;
+        border: none;
+    
+    }
+    
+    .footer{
+        background-color: #ff5400;
+        display: block;
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        height: 50px;
+        padding-top: 10px;
+    }
+    }
+    .img-cps{
+        display: inline;
+        
+    }
+    .cps{
+        width: 96px;
+        height: 95px;
+        margin-top: 2.2em;
+        margin-left: 18%;
+    
+    }
+    .endereco{
+        margin-top: 2.2em;
+        color: white;
+    
+    }
+    .contato{
+        margin-top: 2.2em;
+            color: white;
+    
+    }
+    .rodape{
+        
+        width: 100%;
+        position: relative;
+        bottom: 0;
+    
+    
+    }
+    .redes-sociais-rodape{
+        margin-bottom: 10px;
+    
+    }
+    
+    .redes-contato{
+        margin-top: 2.2em;
+    
+    }
+    .rodape1{
+        margin-top: 20%;
+        background-color: #892d00;
+        height: 12em;
+    
+        
+    }
+    .botao-entrar-pequeno{
+    
+        font-weight: BOLD;
+        width: 200px;
+        height: 50px;
+        border-radius: 20px;
+        background-color:#ff6600;
+        color: white;
+        border: none;
+    
+    }
+    
+    .footer{
+        background-color: #ff5400;
+        display: block;
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        height: 50px;
+        padding-top: 10px;
+        width: 100%;
+        height: auto;
+    }
+    .etec-footer{
+        width: 100%;
+        height: auto;
+    }
+    @media (min-width:901px){
+        .rodape-menor{
+            display: none;
+        }
+        .endereco-menor{
+            display: none;
+        }
+        .titulo-endereco-menor{
+            display: none;
+        }
+        .texto-endereco-menor{
+            display: none;
+        }
+        .contato-menor{
+            display: none;
+        }
+        .texto-contato-menor{
+            display: none;
+        }
+        .rodape1-menor{
+            display: none;
+        }
+    }
+    @media (max-width:900px){
+    .rodape1-menor{
+        margin-top: 20%;
+        background-color: #892d00;
+        height: auto;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+        
+    }
+    .endereco-menor{
+        margin-top: 2.2em;
+        color: white;
+        border-left: 3px solid orange;
+        border-bottom: 3px solid orange;
+       margin-bottom: 5px;
+    
+    
+    }
+    .contato-menor{
+        margin-top: 2.2em;
+        color: white;
+        border-right: 3px solid orange;
+        border-bottom: 3px solid orange;
+       margin-bottom: 5px;
+    
+    }
+    }
