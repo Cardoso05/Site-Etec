@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
@@ -10,7 +11,7 @@
         <!-- Bootstrap Css -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <!-- Css -->
-        <link rel="stylesheet" type="text/css" href="../css/administracao-entrar.css">
+        <link rel="stylesheet" type="text/css" href="../css/administracao-cadastro.css">
         <!-- Title -->
         <title>ETEC JRM</title>
         <link rel="icon" type="imagem/png" href="../img/img-inicial/icone-link/icone.png" />
@@ -24,31 +25,40 @@
 
                 <a class="navbar-brand" id="logo" href="index.html"><img src="../img/img-inicial/navbar/menu-logo.png" alt="Logo Etec JRM"></a>
 
-                <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-
-                <span class="navbar-toggler-icon"></span>
-
-                </button>
-
-    
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                    <a href="administracao-entrar.html"><button class="botao-entrar nav-link">Entrar</button></a>
+                    </li>
+                </ul>
             </nav>
    
         </header>
-        
+        <div>                    
+            <a href="administracao-entrar.html"><button class="botao-entrar-pequeno nav-link">Entrar</button></a>
+        </div>
         <div class="formulario">
         <div class="margem-logo-formulario">
         <img class="logo-formulario" src="../img/img-fale-conosco/logo/logo.png"> 
         </div>
-        <h3 class="text-center texto-1">ENTRAR</h3>          
-            <form  id="form" name="form" method="POST" action="../php/login.php">
+        <h3 class="text-center texto-1">CADASTRE-SE</h3>          
+            <form  id="form" name="form" method="POST" action="../php/config.php">
+                <div>
+                    <input type="text" name="nome" id="nome" placeholder=" *Nome Completo" class="nome-formulario validation" data-required="Campo Obrigatório">
+                </div>
                 <div>
                     <input type="text" name="login" id="login" placeholder=" *Login" class="nome-formulario validation" data-required="Campo Obrigatório">
+                </div>
+                <div>
+                    <input type="text" name="email" id="email" placeholder=" *Email" class="email-formulario" data-required="Campo Obrigatório">
                 </div>
                 <div>
                     <input type="password" name="senha" id="senha" placeholder=" *Senha" class="senha-formulario" data-required="Campo Obrigatório">
                 </div>
                 <div>
-                    <button type="submit" name="entrar" value="entrar" id="entrar" class="botao"  onclick="return validarLogin()">Enviar</button>
+                    <input type="password" name="confirmarsenha" id="confirmarsenha" placeholder=" *Confirmar senha" class="senha-formulario" data-required="Campo Obrigatório">
+                </div>
+                <div>
+                    <button type="submit" name="incluir" value="incluir" id="incluir" class="botao" onclick="return validarCadastro()">Enviar</button>
                 </div>
             </form>
         </div>

@@ -1,21 +1,5 @@
-html{
-    overflow: hidden;
-}
 
 
-
-/* Classes Gerais */
-*{
-    margin: 0px;
-    padding: 0px;
-}
-.centralizar{
-    text-align: center;
-}
-body{
-    overflow-x:hidden;
-    }
-/* Header */
 #logo{
     margin-left: 2%;
     padding-bottom: 0%;
@@ -118,7 +102,6 @@ textarea:focus, input:focus, select:focus {
         width: 70%;
     }
 }
-
 .nome-formulario{
     padding-left: 10px;
     width: 80%;
@@ -130,6 +113,18 @@ textarea:focus, input:focus, select:focus {
     border: none;
     margin-bottom: 3%;
 }
+.email-formulario{
+    padding-left: 10px;
+    width: 80%;
+    height: 50px;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 20px;
+    background-color: #f8f8f8;
+    border: none;
+    margin-bottom: 3%;
+}
+
 .senha-formulario{
     padding-left: 10px;
     width: 80%;

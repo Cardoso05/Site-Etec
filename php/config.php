@@ -11,7 +11,7 @@
         $row=mysqli_fetch_row($result);
         $has=$row[0];
         if(intval($has)>0){
-            echo"<script language='javascript' type='text/javascript'>alert('Esse login ja existe');window.location.href='../html/administracao-entrar.html';</script>";
+            echo"<script language='javascript' type='text/javascript'>alert('Esse login ja existe');window.location.href='../html/administracao-entrar.php';</script>";
 
             die();
         }
@@ -19,7 +19,7 @@
 
         $comando="insert into usuarios (nome,login,email,senha) values ('".$nome."','".$login."','".$email."','".$senha."');";
         if(mysqli_query($mysqli,$comando)){
-            echo"<script language='javascript' type='text/javascript'>alert('Cadastro realizado');window.location.href='../html/administracao-cadastro.html';</script>";
+            echo"<script language='javascript' type='text/javascript'>alert('Cadastro realizado');window.location.href='../html/administracao-cadastro.php';</script>";
             
             
         }else{

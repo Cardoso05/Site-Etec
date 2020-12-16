@@ -20,7 +20,7 @@ $logarray = $array['login'];
 
 if($logarray == $login){
 
-    echo"<script language='javascript' type='text/javascript'>alert('Esse login já existe');window.location.href='../html/administracao-cadastro.html';</script>";
+    echo"<script language='javascript' type='text/javascript'>alert('Esse login já existe');window.location.href='../html/administracao-cadastro.php';</script>";
 
     die();
 
@@ -33,11 +33,11 @@ if($logarray == $login){
     
     if($insert){
 
-        echo"<script language='javascript' type='text/javascript'>alert('Usuário cadastrado com sucesso!');window.location.href='../html/administracao-cadastro.html';</script>";
+        echo"<script language='javascript' type='text/javascript'>alert('Usuário cadastrado com sucesso!');window.location.href='../html/administracao-cadastro.php';</script>";
 
     }else{
 
-        echo"<script language='javascript' type='text/javascript'>alert('Não foi possivel cadastrar esse usúario');window.location.href='../html/administracao-cadastro.html';</script>";
+        echo"<script language='javascript' type='text/javascript'>alert('Não foi possivel cadastrar esse usúario');window.location.href='../html/administracao-cadastro.php';</script>";
     }
 }
 

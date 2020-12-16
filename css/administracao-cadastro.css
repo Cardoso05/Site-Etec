@@ -1,6 +1,11 @@
+ul, ol, li {
+    list-style: none;
+}
+
 #logo{
     margin-left: 2%;
     padding-bottom: 0%;
+    float: left;
 }
 .font-menu-links{
     color: #ff7342;
@@ -43,7 +48,7 @@ textarea:focus, input:focus, select:focus {
     .formulario{
         background-color: #dadada;
         padding-bottom: 5%;
-        margin-top: 17%;
+        margin-top: 25%;
         border-radius: 54px;
         display: block;
         margin-left: auto;
@@ -100,7 +105,60 @@ textarea:focus, input:focus, select:focus {
         width: 70%;
     }
 }
+@media (min-width:397px){
+.botao-entrar{
 
+    float: right;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color:#ff6600;
+    color: white;
+    border: none;
+
+}
+}
+@media (max-width:397px){
+    .botao-entrar{
+        display: none;
+        float: right;
+        width: 200px;
+        height: 50px;
+        border-radius: 20px;
+        background-color:#ff6600;
+        color: white;
+        border: none;
+    
+    }
+    }
+@media (max-width:396px){
+    .botao-entrar-pequeno{
+        z-index: 1;
+        display: block;
+        float: right;
+        width: 200px;
+        height: 50px;
+        border-radius: 20px;
+        background-color:#ff6600;
+        color: white;
+        border: none;
+        margin-top: 10px;
+    
+    }
+}
+@media (min-width:397px){
+    .botao-entrar-pequeno{
+        display: none;
+        float: right;
+        width: 200px;
+        height: 50px;
+        border-radius: 20px;
+        background-color:#ff6600;
+        color: white;
+        border: none;
+    
+    }
+}
 .nome-formulario{
     padding-left: 10px;
     width: 80%;
@@ -112,6 +170,18 @@ textarea:focus, input:focus, select:focus {
     border: none;
     margin-bottom: 3%;
 }
+.email-formulario{
+    padding-left: 10px;
+    width: 80%;
+    height: 50px;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 20px;
+    background-color: #f8f8f8;
+    border: none;
+    margin-bottom: 3%;
+}
+
 .senha-formulario{
     padding-left: 10px;
     width: 80%;
@@ -130,11 +200,9 @@ textarea:focus, input:focus, select:focus {
 #senha::placeholder{
     text-align: left;
 }
-
 #email::placeholder{
     text-align: left;
 }
-
 
 .texto-1{
     color: #ff6600;

@@ -1,0 +1,253 @@
+/* Classes Gerais */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.conteudo-pagina{
+    padding: 0px !important;
+}
+.centralizar{
+    text-align: center;
+}
+body{
+    overflow-x:hidden;
+    }
+/* Header */
+#logo{
+    margin-left: 2%;
+    padding-bottom: 0%;
+}
+.font-menu-links{
+    color: #ff7342;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-right: 28px;
+    padding-bottom: 0px;
+}
+/*Navbar*/
+.margin-contato{
+    margin-right: 35px;
+}
+.font-menu-links:hover{
+    color: #c35326;
+}
+.font-menu-links:active{
+    color: #c35326;
+}
+.sombra-nav{
+    box-shadow: 5px 15px 30px #dddddd;
+    z-index: 0;
+
+}
+/* Redes Sociais*/
+.rede-sociais{
+    padding-right: 1%;
+}
+.icone-redes-sociais{
+    z-index: 1;
+    width: auto;
+    height: auto;
+    display: inline;
+    float: right;
+    padding: 2px;
+    padding-top: 1%;   
+    position: relative;
+}
+.botao{
+    margin-bottom: 30px;
+}
+@media (max-width:575px){
+    .botao{
+    text-align: center;
+        margin-bottom: 25px;
+    }
+}
+/* Icone */
+#icone{
+    padding-top: 5%;
+    
+}
+/* Logo */
+@media (max-width:320px){
+#img-logo-sobre-mobile{
+    margin-top: 5%;
+}
+#img-logo-sobre{
+    display: none;
+}
+
+}
+@media (max-width:767px){
+.botoes-tela-grande{
+    display: none;
+}
+}
+@media (max-width:575px){
+    .botoes-tela-media{
+        display: none;
+    }
+    }
+@media (min-width:768px){
+    .botoes-tela-media{
+        display: none;
+    }
+    }
+@media (min-width:576px){
+    .botoes-tela-pequeno{
+        display: none;
+    }
+    }
+    
+
+@media (min-width:370px){
+#img-logo-sobre{
+    margin-top: 5%;
+}
+#img-logo-sobre-mobile{
+    display: none;
+}
+}
+.textos{
+    margin-top: 5%;
+}
+/* Titulo */
+.titulo-1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+.titulo-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+@media (max-width: 470px){
+    .titulo-1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        color: black;
+        font-weight: bold;
+        margin-top: 45px;
+        margin-bottom: 40px;
+        padding-left: 10px;
+    }
+
+}
+.procedimentos{
+    border-top: 3px solid #ff5400;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    border-bottom: 3px solid #ff5400;
+}
+.titulo-3{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #933000;
+    font-weight: bold;
+}
+.titulo-4{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #933000;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+/* Texto*/
+.texto-2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto-3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 200px;
+}
+.texto-1-diretor{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.3%;
+    padding-bottom: 1.5%;
+    border-bottom: 5px solid #ff5400;
+
+}
+.texto-diretor{
+    margin-top: 5%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texto-professores{
+    margin-top: 2.3%;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* Professores */
+.professores{
+    margin-top: 50px;
+}
+
+/* Links */
+.container-links{
+    margin-top: 50px;
+    padding-left: 1%;
+    display: block;
+}
+/* Rodapé */
+.img-cps{
+        display: inline;
+   
+}
+.cps{
+    width: 96px;
+    height: 95px;
+    margin-top: 2.2em;
+    margin-left: 18%;
+}
+.endereco{
+    margin-top: 2.2em;
+}
+.contato{
+    margin-top: 2.2em;
+}
+.rodape{
+    
+    width: 100%;
+    position: relative;
+    bottom: 0;
+
+}
+.redes-sociais-rodape{
+    margin-bottom: 10px;
+}
+
+.redes-contato{
+    margin-top: 2.2em;
+}
+.rodape1{
+    margin-top: 20%;
+    background-color: #892d00;
+    height: 12em;
+
+}
+.contato-botao{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color:#ff6600;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.footer{
+    background-color: #ff5400;
+    display: block;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+}
