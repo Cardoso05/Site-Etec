@@ -253,6 +253,15 @@ session_start();
             <div>
                 <a href="espaco-aluno.php"><button class="botao-entrar-pequeno nav-link">Horario Aulas</button></a>
             </div>
+
+            <div>
+                <form  id="form" name="form" method="POST" action="../php/logout.php">
+                    <br>
+
+                    <button type="submit" name="incluir" value="incluir" id="incluir" class="botao-entrar-pequeno">Logout</button>
+                
+                </form>
+            </div>
         </div>
        
         <!-- Rodapé -->
