@@ -12,7 +12,7 @@
             $conexao = new mysqli("localhost", "root", "", "fale_conosco");
             mysqli_query($conexao, $sql);
             $conexao->close();
-            header('Location: ../html/index.html');
+            header('Location: ../html/index.php');
         }
     }
 

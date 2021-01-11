@@ -33,7 +33,7 @@
             <nav class="navbar navbar-expand-lg">
 
                 <!-- Logo -->
-                <a class="navbar-brand" id="logo" href="index.html"><img src="../img/img-inicial/navbar/menu-logo.png" alt="Logo Etec JRM"></a>
+                <a class="navbar-brand" id="logo" href="index.php"><img src="../img/img-inicial/navbar/menu-logo.png" alt="Logo Etec JRM"></a>
 
                 <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -48,19 +48,19 @@
 
                         <li class="nav-item active">
 
-                            <a class="nav-link font-menu-links" href="index.html">INÍCIO<span class="sr-only">(current)</span></a>
+                            <a class="nav-link font-menu-links" href="index.php">INÍCIO<span class="sr-only">(current)</span></a>
 
                         </li>
 
                         <li class="nav-item ">
 
-                            <a class="nav-link font-menu-links" href="sobre.html">SOBRE</a>
+                            <a class="nav-link font-menu-links" href="sobre.php">SOBRE</a>
 
                         </li>
 
                         <li class="nav-item ">
 
-                            <a class="nav-link font-menu-links" href="cursos.html#cursos-tecnicos">CURSOS TÉCNICOS</a>
+                            <a class="nav-link font-menu-links" href="cursos.php#cursos-tecnicos">CURSOS TÉCNICOS</a>
 
                         </li>
 
@@ -72,7 +72,7 @@
 
                         <li class="nav-item ">
                             
-                            <a class="nav-link font-menu-links margin-contato" href="fale-conosco.html">FALE CONOSCO</a>
+                            <a class="nav-link font-menu-links margin-contato" href="fale-conosco.php">FALE CONOSCO</a>
 
                         </li>
 
@@ -148,7 +148,7 @@
 
                             <div class="back">
 
-                                <a href="semana-acolhimento.html"><img src="../img/img-inicial/icones/icone-atras.png"></a>
+                                <a href="semana-acolhimento.php"><img src="../img/img-inicial/icones/icone-atras.png"></a>
 
                             </div>
 
@@ -158,7 +158,7 @@
 
                     <h4 class="font-avisos">SEMANA DO ACOLHIMENTO</h4>
 
-                    <a href="semana-acolhimento.html"><h5 class="font-saiba-mais">SAIBA MAIS</h5></a>
+                    <a href="semana-acolhimento.php"><h5 class="font-saiba-mais">SAIBA MAIS</h5></a>
 
                 </div>
 
@@ -176,7 +176,7 @@
 
                             <div class="back">
 
-                                <a href="orientacoes-aula-online.html"><img class="img-back" src="../img/img-inicial/icones/icone-atras.png"></a>
+                                <a href="orientacoes-aula-online.php"><img class="img-back" src="../img/img-inicial/icones/icone-atras.png"></a>
 
                             </div>
 
@@ -186,7 +186,7 @@
 
                     <h4 class="font-avisos">ORIENTAÇÕES SOBRE AS AULAS ONLINE</h4>
 
-                    <a href="orientacoes-aula-online.html"><h5 class="font-saiba-mais">SAIBA MAIS</h5></a>
+                    <a href="orientacoes-aula-online.php"><h5 class="font-saiba-mais">SAIBA MAIS</h5></a>
 
                 </div>
 
@@ -204,7 +204,7 @@
 
                             <div class="back">
 
-                                <a href="comunicado-diretor.html"><img src="../img/img-inicial/icones/icone-atras.png"></a>
+                                <a href="comunicado-diretor.php"><img src="../img/img-inicial/icones/icone-atras.png"></a>
 
                             </div>
 
@@ -214,7 +214,7 @@
 
                     <h4 class="font-avisos">COMUNICADO DO DIRETOR</h4>
 
-                    <a href="comunicado-diretor.html"><h5 class="font-saiba-mais">SAIBA MAIS</h5></a>
+                    <a href="comunicado-diretor.php"><h5 class="font-saiba-mais">SAIBA MAIS</h5></a>
 
                 </div>
 
@@ -488,7 +488,7 @@
 
                     <div>
 
-                        <a href="fale-conosco.html"><button class="botao-entrar-pequeno nav-link">CONTATO</button></a>
+                        <a href="fale-conosco.php"><button class="botao-entrar-pequeno nav-link">CONTATO</button></a>
 
                     </div>
 

@@ -22,7 +22,7 @@ if($result=mysqli_query($mysqli,$query)){
     }else{
         unset ($_SESSION['login']);
         unset ($_SESSION['senha']);
-        echo"<script language='javascript' type='text/javascript'>alert('Login e/ou senha incorretos');window.location.href='../html/administracao-entrar.html';</script>";
+        echo"<script language='javascript' type='text/javascript'>alert('Login e/ou senha incorretos');window.location.href='../html/administracao-entrar.php';</script>";
             
             die();
     }

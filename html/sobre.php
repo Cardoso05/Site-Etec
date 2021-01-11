@@ -30,7 +30,7 @@
             <!--Navbar-->
             <nav class="navbar navbar-expand-lg sombra-nav">
 
-                <a class="navbar-brand" id="logo" href="index.html"><img src="../img/img-inicial/navbar/menu-logo.png" alt="Logo Etec JRM"></a>
+                <a class="navbar-brand" id="logo" href="index.php"><img src="../img/img-inicial/navbar/menu-logo.png" alt="Logo Etec JRM"></a>
 
                 <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -45,18 +45,18 @@
                         <!-- Links do menu-->
                         <li class="nav-item active">
 
-                            <a class="nav-link font-menu-links" href="index.html">INÍCIO<span class="sr-only">(current)</span></a>
+                            <a class="nav-link font-menu-links" href="index.php">INÍCIO<span class="sr-only">(current)</span></a>
 
                         </li>
 
                         <li class="nav-item ">
 
-                            <a class="nav-link font-menu-links" href="sobre.html">SOBRE</a>
+                            <a class="nav-link font-menu-links" href="sobre.php">SOBRE</a>
                         </li>
 
                         <li class="nav-item ">
 
-                            <a class="nav-link font-menu-links" href="cursos.html#cursos-tecnicos">CURSOS TÉCNICOS</a>
+                            <a class="nav-link font-menu-links" href="cursos.php#cursos-tecnicos">CURSOS TÉCNICOS</a>
 
                         </li>
 
@@ -67,7 +67,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link font-menu-links margin-contato" href="fale-conosco.html">FALE CONOSCO</a>
+                            <a class="nav-link font-menu-links margin-contato" href="fale-conosco.php">FALE CONOSCO</a>
                         </li>
                     </ul>
 
@@ -292,7 +292,7 @@
 
                     <div>
 
-                        <a href="fale-conosco.html"><button class="botao-entrar-pequeno nav-link">CONTATO</button></a>
+                        <a href="fale-conosco.php"><button class="botao-entrar-pequeno nav-link">CONTATO</button></a>
 
                     </div>
 
