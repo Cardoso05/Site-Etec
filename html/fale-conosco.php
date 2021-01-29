@@ -15,23 +15,26 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
         <!-- Css -->
-        <link rel="stylesheet" type="text/css" href="../css/administracao-entrar.css">
+        <link rel="stylesheet" type="text/css" href="../css/fale-conosco.css">
 
         <!-- Title -->
         <title>ETEC JRM</title>
         <link rel="icon" type="imagem/png" href="../img/img-inicial/icone-link/icone.png" />
-        <script src="../js/validar.js"></script>
 
     </head>
 
     <body>
 
+        <!-- JavaScript -->
+        <script src="../js/validar.js"></script>
+
         <header>
+
             <!--Navbar-->
             <nav class="navbar navbar-expand-lg sombra-nav">
 
-                <!-- logo -->
-                <a class="navbar-brand" id="logo" href="index.html"><img src="../img/img-inicial/navbar/menu-logo.png" alt="Logo Etec JRM"></a>
+                <!-- Logo -->
+                <a class="navbar-brand" id="logo" href="index.php"><img src="../img/img-inicial/navbar/menu-logo.png" alt="Logo Etec JRM"></a>
 
                 <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -39,8 +42,83 @@
 
                 </button>
 
+                <!-- Links do menu-->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav ml-auto">
+                        
+                        <li class="nav-item active">
+
+                            <a class="nav-link font-menu-links" href="index.php">INÍCIO<span class="sr-only">(current)</span></a>
+                        
+                        </li>
+
+                        <li class="nav-item ">
+
+                            <a class="nav-link font-menu-links" href="sobre.php">SOBRE</a>
+
+                        </li>
+
+                        <li class="nav-item ">
+
+                            <a class="nav-link font-menu-links" href="cursos.php#cursos-tecnicos">CURSOS TÉCNICOS</a>
+
+                        </li>
+
+                        <li class="nav-item ">
+
+                            <a class="nav-link font-menu-links" href="espaco-aluno-principal.php">ESPAÇO ALUNO</a>
+
+                        </li>
+
+                        <li class="nav-item ">
+
+                            <a class="nav-link font-menu-links margin-contato" href="fale-conosco.php">FALE CONOSCO</a>
+
+                        </li>
+                        
+                    </ul>
+
+                </div>  
+
             </nav>
-   
+            <!-- Fim da Navbar -->
+
+            <!-- Redes Sociais -->
+            <div class="rede-sociais">
+
+                <div class="icone-redes-sociais">
+
+                    <a href="https://plus.google.com/109665194998368685817" target="_blank"><img src="../img/img-acolhimento/redes-sociais/google-icone.png" alt="google icone"></a>
+
+                </div>
+
+                <div class="icone-redes-sociais">
+
+                    <a href="https://www.youtube.com/user/etecjrm253" target="_blank"><img src="../img/img-acolhimento/redes-sociais/youtube-icone.png" alt="youtube icone"></a>
+
+                </div>
+
+                <div class="icone-redes-sociais"> 
+
+                    <a href="https://twitter.com/etecjrm253" target="_blank"><img src="../img/img-acolhimento/redes-sociais/twitter-icone.png" alt="twitter icone"></a>
+
+                </div>
+
+                <div class="icone-redes-sociais">
+
+                    <a href="https://www.instagram.com/etecjrm253/" target="_blank"><img src="../img/img-acolhimento/redes-sociais/instagran-icone.png" alt="instagran icone"></a>
+
+                </div>
+
+                <div class="icone-redes-sociais">
+
+                    <a href="https://www.facebook.com/etecjrm" target="_blank"><img src="../img/img-acolhimento/redes-sociais/facebook-icone.png" alt="facebook icone"></a>
+
+                </div>
+
+            </div>   
+
         </header>
         
         <div class="formulario">
@@ -51,30 +129,36 @@
 
             </div>
 
-            <h3 class="text-center texto-1">ENTRAR</h3>       
+            <h3 class="text-center texto-1">ENVIE-NOS UMA MENSAGEM</h3>  
 
-            <form  id="form" name="form" method="POST" action="../php/login.php">
+            <form  id="form" name="form" method="POST" action="../php/fale-conosco-Crtl.php">
 
                 <div>
 
-                    <input type="text" name="login" id="login" placeholder=" *Login" class="nome-formulario validation" data-required="Campo Obrigatório">
+                    <input type="text" name="nome" id="nome" placeholder=" *Nome" class="nome-formulario validation" data-required="Campo Obrigatório">
 
                 </div>
 
                 <div>
 
-                    <input type="password" name="senha" id="senha" placeholder=" *Senha" class="senha-formulario" data-required="Campo Obrigatório">
+                    <input type="text" name="email" id="email" placeholder=" *E-mail" class="email-formulario" data-required="Campo Obrigatório">
 
                 </div>
 
                 <div>
 
-                    <button type="submit" name="entrar" value="entrar" id="entrar" class="botao"  onclick="return validarLogin()">Enviar</button>
+                    <textarea id="texto" name="texto" placeholder=" *Mensagem" class="mensagem-formulario validation"></textarea>
 
                 </div>
-                
+
+                <div>
+
+                    <button type="submit" name="incluir" value="incluir" id="incluir" class="botao"  onclick="return validar()">Enviar</button>
+
+                </div>
+
             </form>
-
+            
         </div>
 
         <!-- Rodapé -->
@@ -127,7 +211,7 @@
 
                     <div>
 
-                        <a href="fale-conosco.html"><button class="botao-entrar-pequeno nav-link">CONTATO</button></a>
+                        <a href="fale-conosco.php"><button class="botao-entrar-pequeno nav-link">CONTATO</button></a>
 
                     </div>
 
@@ -179,5 +263,9 @@
 
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     </body>
+
+
+
+
 
 </html>

@@ -23,18 +23,18 @@
             <!--Navbar-->
             <nav class="navbar navbar-expand-lg sombra-nav">
 
-                <a class="navbar-brand" id="logo" href="index.html"><img src="../img/img-inicial/navbar/menu-logo.png" alt="Logo Etec JRM"></a>
+                <a class="navbar-brand" id="logo" href="index.php"><img src="../img/img-inicial/navbar/menu-logo.png" alt="Logo Etec JRM"></a>
 
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item ">
-                    <a href="administracao-entrar.html"><button class="botao-entrar nav-link">Entrar</button></a>
+                    <a href="administracao-entrar.php"><button class="botao-entrar nav-link">Entrar</button></a>
                     </li>
                 </ul>
             </nav>
    
         </header>
         <div>                    
-            <a href="administracao-entrar.html"><button class="botao-entrar-pequeno nav-link">Entrar</button></a>
+            <a href="administracao-entrar.php"><button class="botao-entrar-pequeno nav-link">Entrar</button></a>
         </div>
         <div class="formulario">
         <div class="margem-logo-formulario">
@@ -113,7 +113,7 @@
 
                 <div>
 
-                    <a href="fale-conosco.html"><button class="botao-entrar-pequeno nav-link">CONTATO</button></a>
+                    <a href="fale-conosco.php"><button class="botao-entrar-pequeno nav-link">CONTATO</button></a>
 
                 </div>
 
